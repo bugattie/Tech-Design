@@ -25,7 +25,7 @@ const items = [
 
 const AppHero = () => {
   return (
-    <div id="id" className="heroBlock">
+    <div id="hero" className="heroBlock">
       <Carousel>
         {items.map((item) => {
           return (

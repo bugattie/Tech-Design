@@ -1,9 +1,10 @@
 import "./App.css";
 import AppHeader from "./components/common/AppHeader";
 import AppHome from "./views/AppHome";
+import AppFooter from "./components/common/AppFooter";
 
 import { Layout } from "antd";
-import { Content } from "antd/lib/layout/layout";
+import { Content, Footer } from "antd/lib/layout/layout";
 
 const { Header } = Layout;
 
@@ -16,6 +17,9 @@ function App() {
       <Content>
         <AppHome />
       </Content>
+      <Footer>
+        <AppFooter />
+      </Footer>
     </Layout>
   );
 }
