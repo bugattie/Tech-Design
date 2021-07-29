@@ -22,12 +22,12 @@ const AppFeatures = () => {
           </p>
         </div>
         <Row gutter={[16, 16]}>
-          <Col span={8}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card hoverable cover={<img src={image1} alt="Modern Design" />}>
               <Meta title="Modern Design" />
             </Card>
           </Col>
-          <Col span={8}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card
               hoverable
               cover={<img src={image2} alt="Clean and Elegant" />}
@@ -35,12 +35,12 @@ const AppFeatures = () => {
               <Meta title="Clean and Elegant" />
             </Card>
           </Col>
-          <Col span={8}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card hoverable cover={<img src={image3} alt="Great Support" />}>
               <Meta title="Great Support" />
             </Card>
           </Col>
-          <Col span={8}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card
               hoverable
               cover={<img src={image4} alt="Easy to customise" />}
@@ -48,7 +48,7 @@ const AppFeatures = () => {
               <Meta title="Easy to customise" />
             </Card>
           </Col>
-          <Col span={8}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card
               hoverable
               cover={<img src={image5} alt="Unlimited Features" />}
@@ -56,7 +56,7 @@ const AppFeatures = () => {
               <Meta title="Unlimited Features" />
             </Card>
           </Col>
-          <Col span={8}>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card hoverable cover={<img src={image6} alt="Advanced Options" />}>
               <Meta title="Advanced Options" />
             </Card>
